@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <default revision="TOPST-AI" sync-j="8"/>
+    <remote fetch="ssh://git@github.com/topst-development" name="origin" />
+
+    <project remote="origin"    name="poky.git"                  path="poky"/>
+    <project remote="origin"    name="meta-arm.git"              path="poky/meta-arm"/>
+    <project remote="origin"    name="meta-qt5.git"              path="poky/meta-qt5"/>
+    <project remote="origin"    name="meta-telechips.git"        path="poky/meta-telechips"/>
+    <project remote="origin"    name="meta-update.git"           path="poky/meta-telechips/meta-update"/>
+    <project remote="origin"    name="meta-telechips-bsp.git"    path="poky/meta-telechips-bsp"/>
+    <project remote="origin"    name="meta-nn.git"               path="poky/meta-telechips/meta-nn"/>
+    <project remote="origin"    name="boot-firmware.git"         path="boot-firmware"/>
+    <project remote="origin"    name="fwdn-fwdn-v8.git"          path="fwdn-v8"/>
+    <project remote="origin"    name="mktcimg.git"               path="mktcimg"/>
+<!--
+    <project remote="origin"    name="tc-nn-monitor.git"         path="rtpm"/>
+    <project remote="origin"    name="tc-nn-toolkit.git"         path="tc-nn-toolkit"/>
+-->
+</manifest>

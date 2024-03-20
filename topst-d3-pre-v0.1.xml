@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<default revision="refs/tags/topst-d3-pre-v0.1" sync-j="4"/>
+
+	<remote name="yoctoproject" fetch="https://git.yoctoproject.org"/>
+	<remote name="qt5" fetch="https://github.com/meta-qt5"/>
+	<remote name="topst" fetch="https://gitlab.com/topst.ai"/>
+
+	<!--<project remote="yoctoproject" name="poky" path="yocto/poky" revision="refs/tags/yocto-3.1.32" upstream="dunfell"/>-->
+	<!--<project remote="yoctoproject" name="meta-arm" path="yocto/meta-arm" revision="refs/tags/yocto-3.1.6" upstream="dunfell"/>-->
+	<!--<project remote="yoctoproject" name="meta-gplv2" path="yocto/meta-gplv2" revision="refs/tags/yocto-3.1.32" upstream="dunfell"/>-->
+
+	<!--<project remote="qt5" name="meta-qt5" path="yocto/meta-qt5" revision="5ef3a0ffd3324937252790266e2b2e64d33ef34f" upstream="dunfell"/>-->
+
+	<project remote="topst" name="yocto/meta-telechips" path="yocto/meta-telechips" upstream="main"/>
+	<project remote="topst" name="yocto/meta-telechips-bsp" path="yocto/meta-telechips-bsp" upstream="main"/>
+	<project remote="topst" name="yocto/meta-topst" path="yocto/meta-topst" upstream="main"/>
+	<project remote="topst" name="yocto/meta-topst-subcore" path="yocto/meta-topst-subcore" upstream="main"/>
+
+	<project remote="topst" name="tools" path="tools" upstream="main">
+		<linkfile dest="easy-setup.sh" src="easy-setup.sh"/>
+		<linkfile dest="stitch-fai.sh" src="stitch-fai.sh"/>
+	</project>
+
+	<project remote="topst" name="yocto/poky" path="yocto/poky" upstream="main"/>
+	<project remote="topst" name="yocto/meta-arm" path="yocto/meta-arm" upstream="main"/>
+	<project remote="topst" name="yocto/meta-gplv2" path="yocto/meta-gplv2" upstream="main"/>
+	<project remote="topst" name="yocto/meta-qt5" path="yocto/meta-qt5" upstream="main"/>
+
+</manifest>
