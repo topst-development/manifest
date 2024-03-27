@@ -13,6 +13,8 @@
     <project remote="origin"    name="boot-firmware.git"         path="boot-firmware"/>
     <project remote="origin"    name="fwdn-fwdn-v8.git"          path="fwdn-v8"/>
     <project remote="origin"    name="mktcimg.git"               path="mktcimg"/>
+<!--
     <project remote="origin"    name="tc-nn-monitor.git"         path="rtpm"/>
     <project remote="origin"    name="tc-nn-toolkit.git"         path="tc-nn-toolkit"/>
+-->
 </manifest>
